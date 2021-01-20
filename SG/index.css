@@ -1,0 +1,92 @@
+body{
+    background-image: url( "https://images.squarespace-cdn.com/content/v1/582e2b0803596e83b828e71e/1480175838739-WIYLA3P9L5AT8DDI0JUK/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/blue-triangle-wallpaper-5071-5313-hd-wallpapers.png?format=1500w");
+    background-size: 2000px;
+}
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: "Times New Roman"
+}
+
+h3 {
+    font-family: "Arial";
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1D658E;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    background-color: #1D658E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #1D658E;
+    border: 1px solid #1D658E;
+}
+
+.registerbtn {
+  background-color: #1D658E;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity:1;
+    background-color: white;
+    color: #1D658E;
+    border: 1px solid #1D658E;
+}
+
+#Global  {
+    display: inline-block;
+}
+
+ #gauche {
+    float: left;
+    margin-left: 20%;
+    margin-right: 30%;
+    padding-right: 50%;
+
+}
+ #droite {
+    float: right;
+    position: absolute;
+    margin-left:20%;
+    margin-right: 20%;
+    padding-left: 20%;
+
+
+}
